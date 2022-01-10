@@ -1,0 +1,10 @@
+﻿@model Hospital
+
+<a asp-controller="Hospitales" asp-action="Index">Volver al listado</a>
+
+<ul class="list-group">
+    <li class="list-group-item">iD: @Model.IdHospital</li>
+    <li class="list-group-item">Nombre: @Model.Nombre</li>
+    <li class="list-group-item">Direccion: @Model.Direccion</li>
+    <li class="list-group-item">Telefono: @Model.Telefono</li>
+</ul>
